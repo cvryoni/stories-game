@@ -7,6 +7,14 @@ input.onGesture(Gesture.Shake, function () {
 })
 let Category = 0
 let Messages: string[] = []
+basic.showString("Hi!")
+basic.showLeds(`
+    . # . # .
+    # . # . #
+    # . . . #
+    . # . # .
+    . . # . .
+    `)
 Messages = [
 "Action",
 "Fantasy",
